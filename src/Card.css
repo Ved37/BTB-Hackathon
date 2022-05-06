@@ -93,6 +93,12 @@ li{
   font-family: 'Signika', sans-serif;
   font-size: 13px;
 }
+.loc{
+   list-style-image: url('./icon/location.svg');
+}
+.dat{
+   list-style-image: url('./icon/date.svg');
+}
 .space{
    margin-bottom: 300px;
 }
