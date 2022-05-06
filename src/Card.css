@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&family=Patrick+Hand+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend+Giga:wght@200&family=Open+Sans:wght@300&family=Patrick+Hand+SC&family=Signika:wght@300&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css");
+.red{
+   background: linear-gradient(180deg, #FF5148 0%, rgba(255, 81, 72, 0.63) 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+}
+.flex-container{
+  margin-top: 3%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.comp-card{
+  background-color: #37293a;
+  border-radius: 10px;
+  height: 150px;
+  width: 350px;
+  padding: 50;
+}
+.trophy_img{
+   height: 210px;
+   width: 150px;   
+   mix-blend-mode: exclusion;
+}
+.silver{
+   width: 137px;
+   height: 31px;
+   margin-bottom: 30px;
+   order: 1;
+   margin-top: 100px;
+}
+.gold{
+   width: 137px;
+   height: 31px;
+   margin-bottom: 30px;
+   margin-left: 100px;
+   margin-right: 100px;
+   order:2;
+}
+.bronze{
+   width: 137px;
+   height: 31px;
+   margin-top: 100px;
+   margin-bottom: 30px;
+   order: 3;
+}
+.white-letter{
+   font-family: 'Metropolis','sans-serif';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 17px;
+   line-height: 31px;
+   margin-bottom: -40px;
+   display: flex;
+   color: #F1F1F1;
+   padding-left: 37px;
+}
+.red-letter{
+   font-family: 'Metropolis','sans-serif';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 25px;
+   line-height: 41px;
+   display: flex;
+
+   background: linear-gradient(180deg, #FF5148 0%, rgba(255, 81, 72, 0.63) 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+}
+.title{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 27px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+}
+.line{
+  border: #df3d35 solid 0.4px;
+  border-radius: 4px;
+  align-self: center;
+  margin: auto 100px;
+}
+li{
+  margin-top: 3px;
+  text-align: left;
+  color: #fff;
+  font-family: 'Signika', sans-serif;
+  font-size: 13px;
+}
+.space{
+   margin-bottom: 300px;
+}
+@media (max-width:660px) {
+   .flex-container{
+      flex-flow: column wrap;
+   }
+   .gold{
+      order:1;
+      margin-bottom: 250px;
+   }
+   .silver{
+      order: 2;
+      margin-bottom: 250px;
+      margin-top: -1px;
+   }
+   .bronze{
+      order:3;
+      margin-top: -1px;
+   }
+}
