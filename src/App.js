@@ -18,8 +18,8 @@ function App() {
     <div className="App">
       <h1 className="red">GRAND PRIZES</h1>
       <p className="white">
-        we have a prize pool worth <span className="red-1">2 lakhs </span>along
-        with captiving rewards in BTB 2022
+        we have a prize pool worth <span className="red-1"> 200K INR </span>along
+        with captiving rewards in BTB 2022.
       </p>
       <div className="flex-container">
         <div className="gold">

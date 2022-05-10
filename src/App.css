@@ -39,12 +39,21 @@
 .red{
   color: red;
   font-size: 50px;
+  background: linear-gradient(180deg, #FF5148 0%, rgba(255, 81, 72, 0.63) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 .white{
   color: white;
 }
 .red-1{
   color: red;
+  background: linear-gradient(180deg, #FF5148 0%, rgba(255, 81, 72, 0.63) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: bold;
 }
 .card-inline{
   display: inline-flex;
