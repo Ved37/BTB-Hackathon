@@ -54,7 +54,7 @@
    font-weight: 300;
    font-size: 17px;
    line-height: 31px;
-   margin-bottom: -40px;
+   margin-bottom: -30px;
    display: flex;
    color: #F1F1F1;
    padding-left: 37px;
@@ -62,9 +62,10 @@
 .red-letter{
    font-family: 'Metropolis','sans-serif';
    font-style: normal;
-   font-weight: 600;
+   font-weight: 750;
    font-size: 25px;
    line-height: 41px;
+   width: 170px;
    display: flex;
 
    background: linear-gradient(180deg, #FF5148 0%, rgba(255, 81, 72, 0.63) 100%);
